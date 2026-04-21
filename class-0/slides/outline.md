@@ -5,7 +5,7 @@
 
 ---
 
-## Welcome + Why This Exists
+## Slide 1: Welcome + Why This Exists
 
 **Slide**: Title + "Frontend থেকে Backend: Side Change"
 
@@ -23,7 +23,7 @@
 
 ---
 
-## Client vs Server
+## Slide 2: Client vs Server
 
 **Slide**: Browser এক পাশে, Server আরেক পাশে
 
@@ -48,7 +48,7 @@ Customer menu দেখে order দেয়, কিন্তু kitchen decide
 
 ---
 
-## HTTP, URL, Request, Response
+## Slide 3: HTTP, URL, Request, Response
 
 **Slide**: `fetch("/api/users")` এর পর্দার আড়ালে
 
@@ -100,7 +100,7 @@ http://localhost:3000/users?active=true
 
 ---
 
-## Status Codes + REST Basics
+## Slide 4: Status Codes + REST Basics
 
 **Slide**: 200, 201, 404, 500 - এগুলো আসলে কী বলে?
 
@@ -128,7 +128,7 @@ Examples:
 
 ---
 
-## Internet এবং Networks
+## Slide 5: Internet এবং Networks
 
 **Slide**: Internet কীভাবে কাজ করে?
 
@@ -149,7 +149,7 @@ Examples:
 
 ---
 
-## TCP, UDP, HTTP Protocols
+## Slide 6: TCP, UDP, HTTP Protocols
 
 **Slide**: Different protocols - different jobs
 
@@ -176,7 +176,7 @@ Examples:
 
 ---
 
-## IP Addresses এবং Localhost
+## Slide 7: IP Addresses এবং Localhost
 
 **Slide**: প্রতিটা device-এর একটা unique address
 
@@ -200,7 +200,7 @@ ifconfig
 
 ---
 
-## Terminal Commands
+## Slide 8: Terminal Commands
 
 **Slide**: Backend developer = Terminal friend
 
@@ -225,7 +225,7 @@ Show that network is working.
 
 ---
 
-## NAT এবং Servers
+## Slide 9: NAT এবং Servers
 
 **Slide**: NAT = Router-এর magic trick
 
@@ -243,7 +243,7 @@ Show that network is working.
 
 ---
 
-## Wrap-up + Class 1 Teaser
+## Slide 10: Wrap-up + Class 1 Teaser
 
 **Slide**: আজ foundation, পরের class-এ architecture
 

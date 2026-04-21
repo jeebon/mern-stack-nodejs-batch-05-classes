@@ -1,0 +1,14 @@
+{
+  "name": "demo-1",
+  "version": "1.0.0",
+  "description": "Basic Express demo",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node --watch main.js",
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
