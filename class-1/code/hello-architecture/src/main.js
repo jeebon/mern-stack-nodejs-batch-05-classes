@@ -5,12 +5,14 @@
 
 import express from "express";
 import usersRouter from "./routes/users.js";
+import { loggingMiddleware } from "./middleware/logger.js";
 
 const app = express();
 const PORT = 3000;
 
 // ============ Middleware Setup ============
 
+app.use(loggingMiddleware);
 app.use(express.json());
 
 // ============ Routes ============
@@ -42,7 +44,6 @@ app.use((err, _req, res, _next) => {
   res.status(500).json({
     status: "500",
     message: "Internal server error",
-    ...(process.env.NODE_ENV === "development" && { error: err.message }),
   });
 });
 
